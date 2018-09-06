@@ -1,0 +1,50 @@
+.ventana{
+    width: 30%;
+    /*height: 100px;*/
+    background-color: grey;
+    float:left;
+    margin: 0.6%;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: justify;
+}
+header {
+    margin:auto;
+    width:100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+input{
+    margin: 1%;
+    height: 25px;
+}
+#titulo{
+    color: aqua;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    /*font-style: oblique;*/
+}
+#links{
+    color: aliceblue;
+}
+#section1,#section2,#section3{
+    text-align: center;
+    color: lightcyan;
+}
+a{
+    color: white;
+}
+body{ 
+    background-image: url("../Image/fondo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.contenedor {
+    width: 90%;
+    max-width:1000px;
+    min-width:300px;
+    min-height:300px;
+    margin:0 auto;
+}

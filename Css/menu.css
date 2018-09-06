@@ -1,0 +1,35 @@
+ul, ol {
+    list-style:none;
+}
+nav > li {
+    float:left;
+}
+nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:2% 2%;
+    display:block;
+}
+nav li a:hover {
+    background-color:#434343;
+}
+nav li:hover > ul{
+    display: block;
+}
+nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 20%;
+}
+nav li ul li a{
+    min-width: 100px;
+}
+nav li ul li ul a{
+    background-color:#222222;
+    color:#fff;
+}
+nav li ul li ul{
+    right: -32%;
+    top:0%;
+}
