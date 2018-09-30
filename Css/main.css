@@ -1,17 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .ventana{
     width: 30%;
-    /*height: 100px;*/
     background-color: grey;
     float:left;
     margin: 0.6%;
     padding-left: 1%;
     padding-right: 1%;
     text-align: justify;
-}
-header {
-    margin:auto;
-    width:100%;
-    font-family:Arial, Helvetica, sans-serif;
 }
 input{
     margin: 1%;
@@ -21,7 +19,7 @@ input{
     color: aqua;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    /*font-style: oblique;*/
+    margin-top: 10px;
 }
 #links{
     color: aliceblue;
@@ -34,15 +32,15 @@ a{
     color: white;
 }
 body{ 
+    background-color: white;
     background-image: url("../Image/fondo.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
 }
 .contenedor {
-    width: 90%;
+    width:90%;
     max-width:1000px;
     min-width:300px;
     min-height:300px;

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <script src="Js/main.js"></script>
+    <title>Consultorio Juridico Unisinu</title>
+  </head>
+  <body>
+    <form id="datos">
+      <div class="container">
+        <header>
+          <div id="section_1" class="navegacion">
+            <nav id="right"
+              <div>
+                <ul class="right">
+                  <li><a href="Login.html">Volver</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="hero">
+            <img src="img/Header.jpg" alt="hero">
+          </div>
+        </header>
+        <main>
+          <div id="section_2" class="contenedor">
+            <div class="contenido clearfix">
+              <h2>Registrar Nuevo Usuario</h2>
+              <br>
+              <center>
+                <table style="width: 70%" border="2">
+                  <tr>
+                    <th style="width: 40%">Nombre</th>
+                    <td><input style="width: 100%" type="text" id="nombre" placeholder="Ingrese su Nombre" required></td>
+                  </tr>
+                  <tr>
+                    <th style="width: 40%">Identificación</th>
+                    <td><input style="width: 100%" type="number" id="cc" placeholder="Ingrese su Identificación" required></td>
+                  </tr>
+                  <tr>
+                    <th style="width: 40%">Genero</th>
+                    <td><input style="width: 100%" type="text" id="genero" placeholder="Ingrese su genero" required></td>
+                  </tr>
+                  <tr>
+                    <th style="width: 40%">Fecha de Nacimiento</th>
+                    <td><input style="width: 100%" type="date" id="fecha" required></td>
+                  </tr>
+                  <tr>
+                    <th style="width: 40%">Estrato SocioEconomico</th>
+                    <td><input style="width: 100%" type="number" id="Estrato" placeholder="Ingrese su Estrato SocioEconomico" required></td>
+                  </tr>
+                  <tr>
+                    <th style="width: 40%">Estado Civil</th>
+                    <td><input style="width: 100%" type="text" id="estado" placeholder="Ingrese su Estado Civil" required></td>
+                  </tr>
+                  <tr>
+                    <th style="width: 40%">Telefono</th>
+                    <td><input style="width: 100%" type="number" id="cel" placeholder="Ingrese su Numero de Telefono" required></td>
+                  </tr>
+                  <tr>
+                    <th style="width: 40%">N° de Hijos</th>
+                    <td><input style="width: 100%" type="number" id="hijos" placeholder="Ingrese El N° de Hijos" required></td>
+                  </tr>
+                  <tr>
+                    <th style="width: 40%">Personas A Cargo</th>
+                    <td><input style="width: 100%" type="number" id="cargo" placeholder="Ingrese cuantas personas estan a su cargo" required></td>
+                  </tr>
+                  <tr>
+                    <th style="width: 40%">Dirección de contacto</th>
+                    <td><input style="width: 100%" type="text" id="dir" placeholder="Ingrese su Dirección de contacto" required></td>
+                  </tr>
+                  <tr>
+                    <th style="width: 40%">Nivel Educativo</th>
+                    <td><input style="width: 100%" type="text" id="Educativo" placeholder="Ingrese su Nivel Educativo" required></td>
+                  </tr>
+                  <tr>
+                    <th style="width: 40%">Actividad o Profesión</th>
+                    <td><input style="width: 100%" type="text" id="Profesion" placeholder="Ingrese su Profesion" required></td>
+                  </tr>
+                  <tr>
+                    <th style="width: 40%">N° de veces que a visitado el consultorio juridico</th>
+                    <td><input style="width: 100%" type="text" id="num_juri" placeholder="Ingrese cuantas veces a visitado el consultorio juridico" required></td>
+                  </tr>
+                  <tr>
+                    <th style="width: 40%">Password</th>
+                    <td><input style="width: 100%" type="password" id="pass" placeholder="Ingrese su contraseña"></td>
+                  </tr>
+                </table>
+                <br>
+                <input type="button" value="Registrar" name="accion" onclick="registrar()">&nbsp;&nbsp;&nbsp;
+                <input type="reset" value="Limpiar" name="accion">
+                <br>
+                <br>
+                <br>
+              </center>
+            </div>
+          </div>
+        </main>
+        <footer>
+          <p>Consultorio Juridico Unisinu (Todos los derechos reservalos)© <span style="color:Red">The Absolute Code.</span></p>
+        </footer>
+      </div><!--*container-->
+      <script src="js/jquery.js"></script>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,148 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: helvetica;
+  background-color: #efefef;
+}
+.clearfix {
+  content: '';
+  clear: both;
+  /* display: table; */
+}
+.hero {
+  margin: 0;
+  padding: 0;
+}
+.hero img {
+  width: 100%;
+  box-shadow: 1px 0px 13px black;
+}
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  z-index: 2;
+  background-color: #252525;
+  width: 80%;
+}
+#right{
+  position: fixed;
+  top: 0px;
+  left: 80%;
+  z-index: 2;
+  background-color: #252525;
+  width: 20%;
+}
+h1{
+  color:Red;
+  text-align: center;
+}
+nav ul {
+  margin: 0 auto;
+  text-align: center;
+}
+#right li {
+
+  padding: 0 50px ;
+  padding-top: 15px;
+  height: 50px;
+  list-style: none;
+  float: right;
+}
+nav li {
+
+  padding: 0 50px ;
+  padding-top: 15px;
+  height: 50px;
+  list-style: none;
+  float: left;
+}
+nav li:nth-child(1){
+  margin-left: 0;
+}
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  transition: .1s;
+  background-color: #3e3e3e;
+
+}
+.contenedor {
+  padding: 50px 10%;
+
+}
+.contenido {
+  background-color: #ffffff;
+  z-index: 1;
+}
+h2, h3 {
+  padding-top: 20px;
+  color: #ff8500;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+h4 {
+  text-transform: uppercase;
+  padding: 20px;
+}
+p {
+  padding: 20px 10%;
+}
+.separador {
+  width: 100%;
+}
+.contenedor-video {
+  margin-top: 25px;
+  width: 100%;
+  height: 500px;
+}
+.contenedor-video .descripcion {
+  width: 30%;
+  float: left;
+  background-color: #ffab51;
+  display: block;
+  color: #ffffff;
+  height: 424.844px;
+}
+.contenedor-video .video {
+  width: 70%;
+  float: right;
+  background-color: #ff8500;
+  display: block;
+}
+#video {
+  background-color: #ffffff;
+  width: 100%;
+}
+samp {
+  text-transform: uppercase;
+  color: #ff8500;
+  font-weight: bold;
+}
+.numeros p{
+  line-height: 1px;
+  text-align: justify;
+}
+footer {
+  width: 100%;
+  background-color: #252525;
+  width: 100%;
+  height: 50px;
+  color: #ffffff;
+}
+footer p{
+  text-align: center;
+}
